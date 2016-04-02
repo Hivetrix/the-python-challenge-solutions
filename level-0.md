@@ -14,6 +14,8 @@ Hint: try to change the URL address.
 
 Next Level: http://www.pythonchallenge.com/pc/def/274877906944.html
 
+And it will jump to http://www.pythonchallenge.com/pc/def/map.html
+
 ## Explanation
 As the "0" indicates, this is just a warm up. Simply calculate 2^38, and follow the hint: embed the result in the URL.
 
@@ -40,23 +42,55 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
 
-### Stop the REPL
+### Calculate Power From REPLE
 
-``Ctrl-C`` + ``Ctrl-D``
-
-### Calculate Power
+Use ``**`` for power:
 
 ```python
 >>> 2**38
 274877906944
 ```
 
+In REPL the result will be printed; or you can explicitly print the result by calling ``print()``
+
 ```python
 >>> print(2**38)
 274877906944
 ```
 
+Instead of ``**``, you can also use ``pow()``
+
 ```python
 >>> pow(2,38)
 274877906944
+```
+or
+
+```python
+>>> print(pow(2,38))
+274877906944
+```
+
+### Stop the REPL
+
+``Ctrl-C`` + ``Ctrl-D``
+
+### Execute Python Script
+
+Create a new file with ``.py`` extension:
+
+```
+$ vim level0.py
+```
+
+Add the content:
+
+```
+print(2**38)
+```
+
+Execute
+
+```
+$ python3 level0.py
 ```

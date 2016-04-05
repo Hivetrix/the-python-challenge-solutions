@@ -28,6 +28,13 @@ Result:
 i hope you didnt translate it by hand. thats what computers are for. doing it in by hand is inefficient and that's why this text is so long. using string.maketrans() is recommended. now apply on the url.
 ```
 
+Apply the same transformation to ``map``, the result is ``ocr``
+
+Features used:
+
+- List comprehension
+- Type conversion
+
 ### Solution 2
 
 ```python
@@ -43,3 +50,7 @@ result = raw.translate(table)
 
 print(result)
 ```
+
+Features used:
+
+- ``string`` package and ``string.maketrans()``

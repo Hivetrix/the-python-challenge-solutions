@@ -12,6 +12,8 @@ g fmnc wms bgblr rpylqjyrc gr zw fylb. rfyrq ufyr amknsrcpq ypc dmp. bmgle gr gl
 
 ## Solutions
 
+As the url indicates, this is a map problem. Notice that there's exactly one character between the given pairs: ``K->L->M``, ``O->P->Q``, ``E->F->G``
+
 ### Solution 1
 
 ```python
@@ -54,3 +56,7 @@ print(result)
 Features used:
 
 - ``string`` package and ``string.maketrans()``
+
+## Level Up
+
+http://www.pythonchallenge.com/pc/def/ocr.html

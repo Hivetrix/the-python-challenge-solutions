@@ -16,7 +16,7 @@ pip install pypng
 
 ```python
 from urllib.request import urlopen
-import png 
+import png, re 
 
 response = urlopen("http://www.pythonchallenge.com/pc/def/oxygen.png")
 
@@ -34,7 +34,19 @@ The pixels are stored as ``[r, g, b, a, r, g, b, a...]``, if the pixel is gray, 
 Output
 
 ```
-smart guy, you made it. the next level is [105, 110, 116, 101, 103, 114, 105, 116, 121] integrity
+smart guy, you made it. the next level is [105, 110, 116, 101, 103, 114, 105, 116, 121]
 ```
 
+Modify the last line:
 
+```python
+print("".join(map(chr, map(int, re.findall("\d+", "".join(res))))))
+```
+
+So integers are extracted and mapped to characters
+
+Final result:
+
+```
+integrity
+```

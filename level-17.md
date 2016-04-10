@@ -4,6 +4,8 @@
 http://www.pythonchallenge.com/pc/return/romance.html
 ## Solution
 
+Part 1:
+
 ```python
 from urllib.request import urlopen
 from urllib.parse import unquote_plus, unquote_to_bytes
@@ -42,6 +44,8 @@ And the final line:
 is it the 26th already? call his father and inform him that "the flowers are on their way". he'll understand.
 ```
 
+Part 2:
+
 ```python
 from xmlrpc.client import ServerProxy
 
@@ -54,5 +58,43 @@ print(conn.phone("Leopold"))
 555-VIOLIN
 ```
 
+Visit http://www.pythonchallenge.com/pc/return/violin.html
+
+```
+no! i mean yes! but ../stuff/violin.php.
+```
+
+Part 3:
+
+```python
+from urllib.request import Request, urlopen
+from urllib.parse import quote_plus
+
+url = "http://www.pythonchallenge.com/pc/stuff/violin.php"
+msg = "the flowers are on their way"
+req = Request(url, headers = { "Cookie": "info=" + quote_plus(msg)})
+
+print(urlopen(req).read().decode())
+```
+
+```html
+<html>
+<head>
+  <title>it's me. what do you want?</title>
+  <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+	<br><br>
+	<center><font color="gold">
+	<img src="leopold.jpg" border="0"/>
+<br><br>
+oh well, don't you dare to forget the balloons.</font>
+</body>
+</html>
+```
+
+## Next Level
+
+http://www.pythonchallenge.com/pc/stuff/balloons.html
 
 

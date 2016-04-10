@@ -45,6 +45,12 @@ second:
 
 ## Solution
 
+Install pillow
+
+```
+pip install pillow
+```
+
 ```python
 from PIL import Image,ImageDraw
 first = [

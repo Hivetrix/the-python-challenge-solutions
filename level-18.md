@@ -57,6 +57,15 @@ f1.close()
 f2.close()
 ```
 
+``difflib.Differ().compare(a, b)`` will generate 
+
+- lines start with ``+``: appear in a not in b
+- lines start with ``-``: appear in b not in a
+- others: appear in both
+
+
+Result:
+
 - ``f.png``: ../hex/bin.html
 - ``f1.png``: butter
 - ``f2.png``: fly

@@ -1,3 +1,5 @@
 # The Python Challenge Solutions
 
-The python challenge solutions
+Solving "The Python Challenge" using Python 3 
+
+(For more info visit http://www.hivetrix.com) 

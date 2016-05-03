@@ -7,7 +7,7 @@ http://www.pythonchallenge.com/pc/return/good.html
 - username: huge
 - password: file
 
-![](../images/good.jpg)
+![](images/good.jpg)
 
 
 HTML

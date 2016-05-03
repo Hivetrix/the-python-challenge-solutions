@@ -19,4 +19,10 @@
 * [Level 16](level-16.md)
 * [Level 17](level-17.md)
 * [Level 18](level-18.md)
-* 
+* [Level 19](level-19.md)
+* [Level 20](level-20.md)
+* [Level 21](level-21.md)
+* [Level 22](level-22.md)
+* [Level 23](level-23.md)
+* [Level 24](level-24.md)
+* [Level 25](level-25.md)

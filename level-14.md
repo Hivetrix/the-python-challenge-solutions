@@ -3,7 +3,7 @@
 
 http://www.pythonchallenge.com/pc/return/italy.html
 
-![](http://www.pythonchallenge.com/pc/return/italy.jpg)
+
 
 ```
 <!-- remember: 100*100 = (100+99+99+98) + (...  -->
@@ -38,6 +38,6 @@ http://www.pythonchallenge.com/pc/return/cat.html
 
 and its name is uzi. you'll hear from him later. 
 
-![](http://www.pythonchallenge.com/pc/return/uzi.jpg)
+
 
 http://www.pythonchallenge.com/pc/return/uzi.html

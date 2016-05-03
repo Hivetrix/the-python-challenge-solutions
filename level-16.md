@@ -3,7 +3,6 @@
 ## Problem
 http://www.pythonchallenge.com/pc/return/mozart.html
 
-![](http://www.pythonchallenge.com/pc/return/mozart.gif)
 
 title: let me get this straight
 

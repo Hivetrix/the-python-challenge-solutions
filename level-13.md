@@ -4,7 +4,7 @@
 
 http://www.pythonchallenge.com/pc/return/disproportional.html
 
-![](http://www.pythonchallenge.com/pc/return/disprop.jpg)
+
 
 phone that evil 
 

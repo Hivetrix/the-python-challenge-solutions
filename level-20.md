@@ -5,7 +5,7 @@
 
 http://www.pythonchallenge.com/pc/hex/idiot2.html
 
-![](http://www.pythonchallenge.com/pc/hex/unreal.jpg)
+
 
 but inspecting it carefully is allowed.
 

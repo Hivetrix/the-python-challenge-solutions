@@ -4,7 +4,7 @@
 
 http://www.pythonchallenge.com/pc/hex/copper.html
 
-![](http://www.pythonchallenge.com/pc/hex/level22.jpg)
+
 
 ## Solution
 

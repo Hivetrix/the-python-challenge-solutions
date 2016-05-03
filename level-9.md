@@ -4,7 +4,11 @@
 
 http://www.pythonchallenge.com/pc/return/good.html
 
-![](http://www.pythonchallenge.com/pc/return/good.jpg)
+- username: huge
+- password: file
+
+![](../images/good.jpg)
+
 
 HTML
 

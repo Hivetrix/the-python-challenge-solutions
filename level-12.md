@@ -4,13 +4,13 @@
 
 http://www.pythonchallenge.com/pc/return/evil.html
 
-![](http://www.pythonchallenge.com/pc/return/evil1.jpg)
+
 
 Checking the source, the image is named as ``evil1.jpg``. Try ``evil2`` and you will see:
 
 http://www.pythonchallenge.com/pc/return/evil2.jpg
 
-![](http://www.pythonchallenge.com/pc/return/evil2.jpg)
+
 
 Change suffix to ``.gfx`` to download the file
 

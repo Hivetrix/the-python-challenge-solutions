@@ -23,3 +23,5 @@ Solutions
 - Level 24: http://www.pythonchallenge.com/pcc/hex/lake.html
 - Level 25: http://www.pythonchallenge.com/pcc/hex/decent.html
 - Level 26: http://www.pythonchallenge.com/pcc/hex/speedboat.html
+
+- level 33: http://www.pythonchallenge.com/pcc/rock/gremlins.html

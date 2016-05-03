@@ -2,7 +2,7 @@
 
 ## Problem
 
-![](http://www.pythonchallenge.com/pc/hex/bonus.jpg)
+
 
 
 ## Solution

@@ -2,7 +2,7 @@
 
 ## Problem
 
-![](http://www.pythonchallenge.com/pc/return/bull.jpg)
+
 len(a[30]) = ?
 
 By clicking the image:

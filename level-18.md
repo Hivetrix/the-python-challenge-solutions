@@ -2,7 +2,6 @@
 
 ## Problem
 
-![](http://www.pythonchallenge.com/pc/return/balloons.jpg)
 
 
 

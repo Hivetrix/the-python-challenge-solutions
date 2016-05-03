@@ -2,7 +2,7 @@
 
 ## Problem
 
-![](http://www.pythonchallenge.com/pc/return/screen15.jpg)
+
 
 ```
 <!-- he ain't the youngest, he is the second -->

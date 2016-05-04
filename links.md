@@ -11,6 +11,12 @@ Problems
 - Level 25: http://www.pythonchallenge.com/pc/hex/lake.html
 - Level 26: http://www.pythonchallenge.com/pc/hex/decent.html
 - Level 27: http://www.pythonchallenge.com/pc/hex/speedboat.html
+- Level 28: http://www.pythonchallenge.com/pc/ring/bell.html
+- Level 29: http://www.pythonchallenge.com/pc/ring/guido.html
+- Level 30: http://www.pythonchallenge.com/pc/ring/yankeedoodle.html
+- Level 31: http://www.pythonchallenge.com/pc/ring/grandpa.html
+- Level 32: http://www.pythonchallenge.com/pc/rock/arecibo.html
+- Level 33: http://www.pythonchallenge.com/pc/rock/beer.html
 
 
 
@@ -23,5 +29,13 @@ Solutions
 - Level 24: http://www.pythonchallenge.com/pcc/hex/lake.html
 - Level 25: http://www.pythonchallenge.com/pcc/hex/decent.html
 - Level 26: http://www.pythonchallenge.com/pcc/hex/speedboat.html
+- Level 27: http://www.pythonchallenge.com/pcc/ring/bell.html:repeat:switch
 
+- Level 30: http://www.pythonchallenge.com/pcc/rock/arecibo.html
 - level 33: http://www.pythonchallenge.com/pcc/rock/gremlins.html
+
+
+Documentation
+-------------------
+
+- PIL: http://pillow.readthedocs.io/

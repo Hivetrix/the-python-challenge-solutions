@@ -26,3 +26,10 @@
 * [Level 23](level-23.md)
 * [Level 24](level-24.md)
 * [Level 25](level-25.md)
+* [Level 26](level-26.md)
+* [Level 27](level-27.md)
+* [Level 28](level-28.md)
+* [Level 29](level-29.md)
+* [Level 30](level-30.md)
+
+* [Level 33](level-33.md)

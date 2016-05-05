@@ -33,3 +33,5 @@ file
 ## Next Level
 
 Click the link in HTML source: ``../return/good.html``, and fill in username and password
+
+http://www.pythonchallenge.com/pc/return/good.html

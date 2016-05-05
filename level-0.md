@@ -1,48 +1,29 @@
 # Level 0
+
 ## Problem
 
 ![](http://www.pythonchallenge.com/pc/def/calc.jpg)
 
 Hint: try to change the URL address.
 
-## Solution for the Impatient
+## Explore
+
+As the "0" indicates, this is just a warm up. 
+
+### Loop
+
+The naive way to solve it: multiply by 2 in a loop:
 
 ```python
->>> 2 ** 38
+>>> k = 1
+>>> for i in range(38):
+...     k *= 2
+... 
+>>> k
 274877906944
 ```
 
-Next Level: http://www.pythonchallenge.com/pc/def/274877906944.html
-
-And it will jump to http://www.pythonchallenge.com/pc/def/map.html
-
-## Explanation
-As the "0" indicates, this is just a warm up. Simply calculate 2^38, and follow the hint: embed the result in the URL.
-
-
-### Things to Learn
-
-First things first:
-
-- Start the Python REPL
-- Exit the Python REPL
-- Calculate Power
-- Run a Python script
-
-
-### Start the REPL
-
-We are using Python 3.x
-
-```
-$ python3
-Python 3.5.0 (default, Sep 23 2015, 04:42:00) 
-[GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.72)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
->>>
-```
-
-### Calculate Power From REPLE
+### Power
 
 Use ``**`` for power:
 
@@ -71,26 +52,63 @@ or
 274877906944
 ```
 
-### Stop the REPL
+### Shift
 
-``Ctrl-C`` + ``Ctrl-D``
+Multiply by 2 is equivalent to shifting the binary representation left by one:
 
-### Execute Python Script
-
-Create a new file with ``.py`` extension:
-
-```
-$ vim level0.py
+```python
+>>> 1<<38
+274877906944
 ```
 
-Add the content:
+### Numeric Types
 
+Done!
+
+Wait, why 38? what is implied?
+
+If you are coming from C/C++, Java or other languages, you know that there are multiple types just for integers: ``short``, ``integer``, ``long``, and even ``BigInteger`` beyond 64-bit. However that is not the case in Python:
+
+```python
+>>> type(2**3)
+<class 'int'>
+>>> type(2**38)
+<class 'int'>
+>>> type(2**380)
+<class 'int'>
 ```
+
+So 38 is a good(and random) example to show a ``int`` larger than 32-bit.
+
+Similar for float type, in Python it can be arbitrarily large, no ``double`` needed
+
+```python
+>>> type(2**3.8)
+<class 'float'>
+>>> type(2.0**38)
+<class 'float'>
+```
+
+## Complete Solution
+
+```python
 print(2**38)
 ```
 
-Execute
+Output:
 
 ```
-$ python3 level0.py
+274877906944
 ```
+
+## Next Level
+ 
+http://www.pythonchallenge.com/pc/def/274877906944.html
+
+And it will jump to 
+
+http://www.pythonchallenge.com/pc/def/map.html
+
+## Further Readings
+
+- [Python 3: REPL](http://tutorials.hivetrix.com/en/python/repl/)

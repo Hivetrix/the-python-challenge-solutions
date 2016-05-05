@@ -2,6 +2,8 @@
 
 ## Problem
 
+http://www.pythonchallenge.com/pc/def/channel.html
+
 ![](http://www.pythonchallenge.com/pc/def/channel.jpg)
 
 Download: http://www.pythonchallenge.com/pc/def/channel.zip

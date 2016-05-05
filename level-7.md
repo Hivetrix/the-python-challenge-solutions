@@ -71,3 +71,7 @@ Final result:
 ```
 integrity
 ```
+
+## Next Level
+
+http://www.pythonchallenge.com/pc/def/integrity.html

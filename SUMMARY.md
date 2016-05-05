@@ -1,5 +1,6 @@
 # Summary
 
+* [Preface](preface.md)
 * [Level 0](level-0.md)
 * [Level 1](level-1.md)
 * [Level 2](level-2.md)
@@ -31,5 +32,5 @@
 * [Level 28](level-28.md)
 * [Level 29](level-29.md)
 * [Level 30](level-30.md)
-
 * [Level 33](level-33.md)
+* [Appendix: Links](links.md)

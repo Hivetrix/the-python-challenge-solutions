@@ -40,11 +40,9 @@ Features used:
 ### Solution 2
 
 ```python
-import string
-
 raw = "g fmnc wms bgblr rpylqjyrc gr zw fylb. rfyrq ufyr amknsrcpq ypc dmp. bmgle gr     gl zw fylb gq glcddgagclr ylb rfyr'q ufw rfgq rcvr gq qm jmle. sqgle qrpgle.kyicrpy    lq() gq pcamkkclbcb. lmu ynnjw ml rfc spj."
 
-table = string.maketrans(
+table = str.maketrans(
     "abcdefghijklmnopqrstuvwxyz", "cdefghijklmnopqrstuvwxyzab"
 )
 
@@ -57,6 +55,22 @@ Features used:
 
 - ``string`` package and ``string.maketrans()``
 
-## Level Up
+## Next Level
 
 http://www.pythonchallenge.com/pc/def/ocr.html
+
+
+## Python 2 to Python 3
+
+In Python 2, ``maketrans()`` is a method in ``string`` module, so you need to import it first:
+
+```python
+import string
+
+table = string.maketrans("from", "to")
+```
+
+In Python 3, ``maketrans()`` is part of either ``bytes`` or ``str``:
+
+- str.maketrans(from, to)
+- bytes.maketrans(from, to)

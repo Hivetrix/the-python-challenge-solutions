@@ -1,11 +1,12 @@
 # Level 3
+
 ## Problem
 
 Link: http://www.pythonchallenge.com/pc/def/equality.html
 
 ![](http://www.pythonchallenge.com/pc/def/bodyguard.jpg)
 
-One small letter, surrounded by EXACTLY three big bodyguards on each of its sides.
+> One small letter, surrounded by EXACTLY three big bodyguards on each of its sides.
 
 Again data can be found in html source.
 
@@ -31,3 +32,7 @@ http://www.pythonchallenge.com/pc/def/linkedlist.html
 The page will redirect you to ``linkedlist.php``
 
 http://www.pythonchallenge.com/pc/def/linkedlist.php
+
+## Further Readings
+
+- [Python 3 - RegEx](http://tutorials.hivetrix.com/en/python/re/)

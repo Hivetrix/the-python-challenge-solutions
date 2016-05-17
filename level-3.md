@@ -35,4 +35,4 @@ http://www.pythonchallenge.com/pc/def/linkedlist.php
 
 ## Further Readings
 
-- [Python 3 - RegEx](http://tutorials.hivetrix.com/en/python/re/)
+- [Python 3 - RegEx](http://www.hackingnote.com/en/python/re/)

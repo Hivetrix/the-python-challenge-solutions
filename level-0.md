@@ -111,4 +111,4 @@ http://www.pythonchallenge.com/pc/def/map.html
 
 ## Further Readings
 
-- [Python 3: REPL](http://tutorials.hivetrix.com/en/python/repl/)
+- [Python 3: REPL](http://www.hackingnote.com/en/python/repl/)

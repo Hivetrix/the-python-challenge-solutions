@@ -1,6 +1,6 @@
 {
   "plugins": ["sitemap", "ga"],
-  "pluginConfig": {
+  "pluginsConfig": {
     "ga": {
       "token": "UA-77760660-2"
     },

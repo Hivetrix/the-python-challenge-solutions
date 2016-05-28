@@ -1,1 +1,12 @@
-{}
+{
+  "plugins": ["sitemap", "ga"],
+  "pluginConfig": {
+    "ga": {
+      "token": "UA-77760660-2"
+    },
+    "sitemap": {
+      "hostname": "http://one-liner.hackingnote.com/"
+    }
+  }
+}
+

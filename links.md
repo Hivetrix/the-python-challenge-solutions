@@ -55,6 +55,8 @@ Problems
 Solutions
 ---------
 
+- Level 18: http://www.pythonchallenge.com/pcc/hex/bin.html:butter:fly
+- Level 19: http://www.pythonchallenge.com/pcc/hex/idiot2.html
 
 - Level 21: http://www.pythonchallenge.com/pcc/hex/copper.html
 - Level 22: http://www.pythonchallenge.com/pcc/hex/bonus.html

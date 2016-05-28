@@ -1,10 +1,14 @@
 # Level 0
 
+- Link: http://www.pythonchallenge.com/pc/def/0.html
+
 ## Problem
 
-![](http://www.pythonchallenge.com/pc/def/calc.jpg)
 
-Hint: try to change the URL address.
+
+![](images/calc.jpg)
+
+> Hint: try to change the URL address.
 
 ## Explore
 

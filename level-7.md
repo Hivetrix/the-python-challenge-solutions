@@ -1,8 +1,10 @@
 # Level 7
 
+- Link: http://www.pythonchallenge.com/pc/def/oxygen.html
+
 ## Problem
 
-![](http://www.pythonchallenge.com/pc/def/oxygen.png)
+![](images/oxygen.png)
 
 Nothing else... the gray scale should contain the information.
 
@@ -11,6 +13,8 @@ Nothing else... the gray scale should contain the information.
 Pick an image processing library. 
 
 ### Solution 1: PIL(Pillow)
+
+The original PIL was not ported to Python 3. Use the fork called ``Pillow`` instead: 
 
 Install Pillow
 ```
@@ -29,7 +33,8 @@ print("".join(map(chr, map(int, re.findall("\d+", "".join(map(chr, ords)))))))
 ```
 
 ### Solution 2: PyPNG
-``PyPNG``:
+
+Alternatively use a package called ``PyPNG``:
 
 ```bash
 pip install pypng
@@ -54,9 +59,9 @@ The pixels are stored as ``[r, g, b, a, r, g, b, a...]``, if the pixel is gray, 
 
 Output
 
-```
-smart guy, you made it. the next level is [105, 110, 116, 101, 103, 114, 105, 116, 121]
-```
+
+> smart guy, you made it. the next level is [105, 110, 116, 101, 103, 114, 105, 116, 121]
+
 
 Modify the last line:
 
@@ -68,9 +73,8 @@ So integers are extracted and mapped to characters
 
 Final result:
 
-```
-integrity
-```
+> integrity
+
 
 ## Next Level
 

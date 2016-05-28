@@ -1,8 +1,12 @@
 # Level 24
 
+- Link: http://www.pythonchallenge.com/pc/hex/ambiguity.html
+- Username: **butter**
+- Password: **fly**
+
 ## Problem
 
-http://www.pythonchallenge.com/pc/hex/ambiguity.html
+![](images/maze.png)
 
 ## Solution
 

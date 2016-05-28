@@ -1,5 +1,9 @@
 # Preface
 
+## The Python Challenge
+
+The awesome python challenge: http://www.pythonchallenge.com/
+
 ## Sections
 
 All of the solutions follow a similar structure, consisting of the following sections:

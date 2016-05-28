@@ -1,14 +1,25 @@
 # Level 3
 
+- Link: http://www.pythonchallenge.com/pc/def/equality.html
+
+
 ## Problem
 
-Link: http://www.pythonchallenge.com/pc/def/equality.html
 
-![](http://www.pythonchallenge.com/pc/def/bodyguard.jpg)
+
+
+![](images/bodyguard.jpg)
 
 > One small letter, surrounded by EXACTLY three big bodyguards on each of its sides.
 
-Again data can be found in html source.
+
+In page source: 
+
+```html
+<!--
+kAewtloYgcFQaJNhHVGxXDiQmzjfcpYbzxlWrVcqsmUbCunkfxZWDZjUZMiGq
+...
+```
 
 ## Solution
 
@@ -21,9 +32,9 @@ print("".join(re.findall("[^A-Z]+[A-Z]{3}([a-z])[A-Z]{3}[^A-Z]+", data)))
 
 Result: 
 
-```
-linkedlist
-```
+
+> linkedlist
+
 
 ## Next Level
 

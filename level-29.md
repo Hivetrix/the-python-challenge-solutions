@@ -1,5 +1,12 @@
 # Level 29
 
+- Link: http://www.pythonchallenge.com/pc/ring/guido.html
+- Username: **repeat**
+- Password: **switch**
+
+## Problem
+
+![](images/whoisit.jpg)
 
 
 ## Solution

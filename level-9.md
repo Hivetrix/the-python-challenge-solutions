@@ -1,16 +1,16 @@
 # Level 9
 
+- Link: http://www.pythonchallenge.com/pc/return/good.html
+- Username: **huge**
+- Password: **file**
+
 ## Problem
 
-http://www.pythonchallenge.com/pc/return/good.html
-
-- username: huge
-- password: file
 
 ![](images/good.jpg)
 
 
-HTML
+In page source: 
 
 ```
 
@@ -52,7 +52,7 @@ second:
 Install pillow
 
 ```
-pip install pillow
+$ pip install pillow
 ```
 
 ```python

@@ -1,14 +1,16 @@
 # Level 1
 
+- Link: http://www.pythonchallenge.com/pc/def/map.html
+
 ## Problem
 
-![](http://www.pythonchallenge.com/pc/def/map.jpg)
 
-```
-everybody thinks twice before solving this.
+![](images/level1.jpg)
 
-g fmnc wms bgblr rpylqjyrc gr zw fylb. rfyrq ufyr amknsrcpq ypc dmp. bmgle gr gl zw fylb gq glcddgagclr ylb rfyr'q ufw rfgq rcvr gq qm jmle. sqgle qrpgle.kyicrpylq() gq pcamkkclbcb. lmu ynnjw ml rfc spj.
-```
+> everybody thinks twice before solving this.
+
+> g fmnc wms bgblr rpylqjyrc gr zw fylb. rfyrq ufyr amknsrcpq ypc dmp. bmgle gr gl zw fylb gq glcddgagclr ylb rfyr'q ufw rfgq rcvr gq qm jmle. sqgle qrpgle.kyicrpylq() gq pcamkkclbcb. lmu ynnjw ml rfc spj.
+
 
 ## Solutions
 
@@ -26,9 +28,8 @@ print(result)
 
 Result:
 
-```
-i hope you didnt translate it by hand. thats what computers are for. doing it in by hand is inefficient and that's why this text is so long. using string.maketrans() is recommended. now apply on the url.
-```
+> i hope you didnt translate it by hand. thats what computers are for. doing it in by hand is inefficient and that's why this text is so long. using string.maketrans() is recommended. now apply on the url.
+
 
 Apply the same transformation to ``map``, the result is ``ocr``
 
@@ -42,9 +43,7 @@ Features used:
 ```python
 raw = "g fmnc wms bgblr rpylqjyrc gr zw fylb. rfyrq ufyr amknsrcpq ypc dmp. bmgle gr     gl zw fylb gq glcddgagclr ylb rfyr'q ufw rfgq rcvr gq qm jmle. sqgle qrpgle.kyicrpy    lq() gq pcamkkclbcb. lmu ynnjw ml rfc spj."
 
-table = str.maketrans(
-    "abcdefghijklmnopqrstuvwxyz", "cdefghijklmnopqrstuvwxyzab"
-)
+table = str.maketrans("abcdefghijklmnopqrstuvwxyz", "cdefghijklmnopqrstuvwxyzab")
 
 result = raw.translate(table)
 
@@ -72,5 +71,5 @@ table = string.maketrans("from", "to")
 
 In Python 3, ``maketrans()`` is part of either ``bytes`` or ``str``:
 
-- str.maketrans(from, to)
-- bytes.maketrans(from, to)
+- ``str.maketrans(from, to)``
+- ``bytes.maketrans(from, to)``

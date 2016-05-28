@@ -32,5 +32,7 @@
 * [Level 28](level-28.md)
 * [Level 29](level-29.md)
 * [Level 30](level-30.md)
+* [Level 31](level-31.md)
+* [Level 32](level-32.md)
 * [Level 33](level-33.md)
 * [Appendix: Links](links.md)

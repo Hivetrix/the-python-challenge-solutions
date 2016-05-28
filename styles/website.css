@@ -1,0 +1,18 @@
+
+.markdown-section h1 {
+
+}
+
+.markdown-section h2 {
+    border-bottom: 1px solid #888;
+}
+
+.markdown-section h3 {
+    color: brown;
+    margin-bottom: 10px;
+}
+
+
+.markdown-section  pre {
+    background-color: #EEE;
+}

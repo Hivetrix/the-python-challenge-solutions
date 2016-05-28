@@ -1,12 +1,18 @@
 # Level 11
 
+- Link: http://www.pythonchallenge.com/pc/return/5808.html
+- Username: **huge**
+- Password: **file**
+
 ## Problem
 
-http://www.pythonchallenge.com/pc/return/5808.html
+![](images/cave.jpg)
 
-
+title: ``odd even``
 
 ## Solution
+
+The only clue is the title, which implies that we need to split the image by odd/even:
 
 ```python
 from PIL import Image

@@ -1,6 +1,12 @@
 # Level 25
 
+- Link: http://www.pythonchallenge.com/pc/hex/lake.html
+- Username: **butter**
+- Password: **fly**
+
 ## Problem
+
+![](images/lake1.jpg)
 
 ## Solution
 

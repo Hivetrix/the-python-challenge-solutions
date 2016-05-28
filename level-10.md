@@ -1,7 +1,12 @@
 # Level 10
 
+- Link: http://www.pythonchallenge.com/pc/return/bull.html
+- Username: **huge**
+- Password: **file**
+
 ## Problem
 
+![](images/bull.jpg)
 
 len(a[30]) = ?
 
@@ -29,7 +34,9 @@ for i in range(0, 30):
 print len(a)
 ```
 
-Output: 5808
+Output: 
+
+> 5808
 
 ## Next Level
 

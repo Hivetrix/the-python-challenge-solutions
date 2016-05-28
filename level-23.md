@@ -1,8 +1,12 @@
 # Level 23
 
+- Link: http://www.pythonchallenge.com/pc/hex/bonus.html
+- Username: **butter**
+- Password: **fly**
+
 ## Problem
 
-
+![](images/bonus.jpg)
 
 
 ## Solution

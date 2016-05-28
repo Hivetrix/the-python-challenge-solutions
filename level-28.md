@@ -1,11 +1,15 @@
 # Level 28
 
+- Link: http://www.pythonchallenge.com/pc/ring/bell.html
+- Username: **repeat**
+- Password: **switch**
+
 ## Problem
 
-http://www.pythonchallenge.com/pc/ring/bell.html
+![](images/bell.png)
 
-- username: repeat
-- password: switch
+> RING-RING-RING 
+  say it out loud
 
 ## Solution
 

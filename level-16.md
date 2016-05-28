@@ -1,8 +1,12 @@
 # Level 16
 
-## Problem
-http://www.pythonchallenge.com/pc/return/mozart.html
+- Link: http://www.pythonchallenge.com/pc/return/mozart.html
+- Username: **huge**
+- Password: **file**
 
+## Problem
+
+![](images/mozart.gif)
 
 title: let me get this straight
 

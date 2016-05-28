@@ -1,10 +1,14 @@
 # Level 6
 
+
+- Link: http://www.pythonchallenge.com/pc/def/channel.html
+
 ## Problem
 
-http://www.pythonchallenge.com/pc/def/channel.html
 
-![](http://www.pythonchallenge.com/pc/def/channel.jpg)
+
+
+![](images/channel.jpg)
 
 Download: http://www.pythonchallenge.com/pc/def/channel.zip
 

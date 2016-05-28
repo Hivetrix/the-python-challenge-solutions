@@ -1,7 +1,13 @@
 # Level 17
 
+- Link: http://www.pythonchallenge.com/pc/return/romance.html
+- Username: **huge**
+- Password: **file**
+
 ## Problem
-http://www.pythonchallenge.com/pc/return/romance.html
+
+![](images/cookies.jpg)
+
 ## Solution
 
 Part 1:
@@ -96,5 +102,9 @@ oh well, don't you dare to forget the balloons.</font>
 ## Next Level
 
 http://www.pythonchallenge.com/pc/stuff/balloons.html
+
+redirect to 
+
+http://www.pythonchallenge.com/pc/return/balloons.html
 
 

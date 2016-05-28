@@ -1,3 +1,17 @@
+# Level 33
+
+- Link: http://www.pythonchallenge.com/pc/rock/beer.html
+- Username: **kohsamui**
+- Password: **thailand**
+
+
+## Problem
+
+![](images/beer1.jpg)
+
+## Solution
+
+```python
 >>> im.size
 (138, 138)
 >>> im.mode
@@ -12,7 +26,7 @@
 
 >>> sum([x for x in im.histogram() if x != 0][:-2])
 17424
-
+```
 
 
 ```python
@@ -37,9 +51,10 @@ for i in range(33):
 
 The letters with frames:
 
-gremlins
+> gremlins
 
 
-Final Link:
+## Final Link
+
 
 http://www.pythonchallenge.com/pc/rock/gremlins.html

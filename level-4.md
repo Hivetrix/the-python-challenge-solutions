@@ -1,15 +1,17 @@
 # Level 4
 
+- Link: http://www.pythonchallenge.com/pc/def/linkedlist.php
+
 ## Problem
 
-![](http://www.pythonchallenge.com/pc/def/chainsaw.jpg)
+
+![](images/chainsaw.jpg)
 
 Click on the image, you would see
 
-```
-and the next nothing is 44827
-```  
 
+> and the next nothing is 44827
+  
 And the url changed to ``http://www.pythonchallenge.com/pc/def/linkedlist.php?nothing=12345``
 
 Change the url with the new number and another number will be given.

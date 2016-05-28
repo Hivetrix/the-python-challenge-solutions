@@ -1,16 +1,17 @@
 # Level 20
 
+- Link: http://www.pythonchallenge.com/pc/hex/idiot2.html
+- Username: **butter**
+- Password: **fly**
 
 ## Problem
 
-http://www.pythonchallenge.com/pc/hex/idiot2.html
+![](images/unreal.jpg)
 
 
+> but inspecting it carefully is allowed.
 
-but inspecting it carefully is allowed.
 
-- username: butter
-- password: fly
 
 ## Solution
 
@@ -158,3 +159,7 @@ Unzip it with the password("redavni").
 >
 > * We used to play this game when we were kids
 > * When I had no idea what to do, I looked backwards.
+
+## Next Level
+
+Inside the zip file

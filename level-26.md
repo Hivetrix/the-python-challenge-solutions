@@ -1,8 +1,15 @@
 # Level 26
 
+
+- Link: www.pythonchallenge.com/pc/hex/decent.html
+- Username: **butter**
+- Password: **fly**
+
 ## Problem
 
-www.pythonchallenge.com/pc/hex/decent.html
+![](images/decent.jpg)
+
+> Hurry up, I'm missing the boat
 
 ## Solution
 

@@ -1,8 +1,12 @@
 # Level 8
+
+- Link: http://www.pythonchallenge.com/pc/def/integrity.html
+
 ## Problem
 
-![](http://www.pythonchallenge.com/pc/def/integrity.jpg)
-Where is the missing link?
+![](images/integrity.jpg)
+
+> Where is the missing link?
 
 ```html
 <!--

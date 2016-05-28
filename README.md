@@ -1,6 +1,6 @@
 # The Python Challenge Solutions
 
-Solving "The Python Challenge" using Python 3 
+Solving ["The Python Challenge"](http://www.pythonchallenge.com/) using Python 3 
 
 
 **!!!The book is still under development**

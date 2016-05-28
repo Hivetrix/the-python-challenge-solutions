@@ -1,8 +1,12 @@
 # Level 18
 
+- Link: http://www.pythonchallenge.com/pc/return/balloons.html
+- Username: **huge**
+- Password: **file**
+
 ## Problem
 
-
+![](images/balloons.jpg)
 
 
 ## Solution

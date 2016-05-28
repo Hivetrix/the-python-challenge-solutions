@@ -1,4 +1,14 @@
+# Level 30
 
+- Link: http://www.pythonchallenge.com/pc/ring/yankeedoodle.html
+- Username: **repeat**
+- Password: **switch**
+
+## Problem
+
+![](images/yankeedoodle.jpg)
+
+> The picture is only meant to help you relax
 
 ## Solution
 

@@ -12,7 +12,7 @@ Click on the image:
 
 > That was too easy. You are still on 31... 
 
-![](mandelbrot.gif)
+![](images/mandelbrot.gif)
 
 ## Solution
 

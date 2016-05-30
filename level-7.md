@@ -79,3 +79,7 @@ Final result:
 ## Next Level
 
 http://www.pythonchallenge.com/pc/def/integrity.html
+
+## Read More
+
+- [Pillow Documentation](http://pillow.readthedocs.io/)

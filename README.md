@@ -3,6 +3,5 @@
 Solving ["The Python Challenge"](http://www.pythonchallenge.com/) using Python 3 
 
 
-**!!!The book is still under development**
 
-(For more, visit http://www.hackingnote.com) 
+By [HackingNote](http://www.hackingnote.com) 

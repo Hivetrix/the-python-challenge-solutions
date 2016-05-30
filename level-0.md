@@ -113,6 +113,6 @@ And it will jump to
 
 http://www.pythonchallenge.com/pc/def/map.html
 
-## Further Readings
+## Read More
 
-- [Python 3: REPL](http://www.hackingnote.com/en/python/repl/)
+- [Python 3 - REPL](http://www.hackingnote.com/en/python/repl/)

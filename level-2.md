@@ -68,3 +68,7 @@ result:
 ## Next Level
 
 http://www.pythonchallenge.com/pc/def/equality.html
+
+## Read More
+
+- [Python 3 - IO](http://www.hackingnote.com/en/python/io)

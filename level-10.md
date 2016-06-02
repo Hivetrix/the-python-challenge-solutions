@@ -1,4 +1,4 @@
-# Level 10
+# Python Challenge - Level 10
 
 - Link: http://www.pythonchallenge.com/pc/return/bull.html
 - Username: **huge**

@@ -1,4 +1,4 @@
-# Level 23
+# Python Challenge - Level 23
 
 - Link: http://www.pythonchallenge.com/pc/hex/bonus.html
 - Username: **butter**

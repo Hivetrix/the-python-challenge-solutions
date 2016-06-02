@@ -1,4 +1,4 @@
-# Level 0
+# Python Challenge - Level 0
 
 - Link: http://www.pythonchallenge.com/pc/def/0.html
 

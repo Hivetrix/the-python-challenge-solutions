@@ -1,4 +1,4 @@
-# Level 5
+# Python Challenge - Level 5
 
 - Link: http://www.pythonchallenge.com/pc/def/peak.html
 

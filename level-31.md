@@ -1,4 +1,4 @@
-# Level 31
+# Python Challenge - Level 31
 
 - Link: http://www.pythonchallenge.com/pc/ring/grandpa.html
 - Username: **kohsamui**

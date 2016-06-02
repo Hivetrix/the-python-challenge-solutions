@@ -1,4 +1,4 @@
-# Level 8
+# Python Challenge - Level 8
 
 - Link: http://www.pythonchallenge.com/pc/def/integrity.html
 

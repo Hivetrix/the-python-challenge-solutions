@@ -1,4 +1,4 @@
-# Level 22
+# Python Challenge - Level 22
 
 
 - Link: http://www.pythonchallenge.com/pc/hex/copper.html

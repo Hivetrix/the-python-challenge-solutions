@@ -1,4 +1,4 @@
-# Level 25
+# Python Challenge - Level 25
 
 - Link: http://www.pythonchallenge.com/pc/hex/lake.html
 - Username: **butter**

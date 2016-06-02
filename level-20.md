@@ -1,4 +1,4 @@
-# Level 20
+# Python Challenge - Level 20
 
 - Link: http://www.pythonchallenge.com/pc/hex/idiot2.html
 - Username: **butter**

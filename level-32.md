@@ -1,4 +1,4 @@
-# Level 32
+# Python Challenge - Level 32
 
 - Link: http://www.pythonchallenge.com/pc/rock/arecibo.html
 - Username: **kohsamui**

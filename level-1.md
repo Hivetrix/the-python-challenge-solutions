@@ -1,4 +1,4 @@
-# Level 1
+# Python Challenge - Level 1
 
 - Link: http://www.pythonchallenge.com/pc/def/map.html
 

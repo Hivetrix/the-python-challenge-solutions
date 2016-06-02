@@ -1,4 +1,4 @@
-# Level 11
+# Python Challenge - Level 11
 
 - Link: http://www.pythonchallenge.com/pc/return/5808.html
 - Username: **huge**

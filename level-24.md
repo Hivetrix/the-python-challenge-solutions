@@ -1,4 +1,4 @@
-# Level 24
+# Python Challenge - Level 24
 
 - Link: http://www.pythonchallenge.com/pc/hex/ambiguity.html
 - Username: **butter**

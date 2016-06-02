@@ -1,4 +1,4 @@
-# Level 26
+# Python Challenge - Level 26
 
 
 - Link: www.pythonchallenge.com/pc/hex/decent.html

@@ -1,4 +1,4 @@
-# Level 9
+# Python Challenge - Level 9
 
 - Link: http://www.pythonchallenge.com/pc/return/good.html
 - Username: **huge**

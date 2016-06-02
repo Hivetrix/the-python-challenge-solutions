@@ -1,4 +1,4 @@
-# Level 15
+# Python Challenge - Level 15
 
 - Link: http://www.pythonchallenge.com/pc/return/uzi.html
 - Username: **huge**

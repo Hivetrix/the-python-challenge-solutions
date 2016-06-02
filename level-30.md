@@ -1,4 +1,4 @@
-# Level 30
+# Python Challenge - Level 30
 
 - Link: http://www.pythonchallenge.com/pc/ring/yankeedoodle.html
 - Username: **repeat**

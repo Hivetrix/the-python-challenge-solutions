@@ -1,4 +1,4 @@
-# Level 2
+# Python Challenge - Level 2
 
 - Link: http://www.pythonchallenge.com/pc/def/ocr.html
 

@@ -1,4 +1,4 @@
-# Level 7
+# Python Challenge - Level 7
 
 - Link: http://www.pythonchallenge.com/pc/def/oxygen.html
 

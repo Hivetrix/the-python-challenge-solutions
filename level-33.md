@@ -1,4 +1,4 @@
-# Level 33
+# Python Challenge - Level 33
 
 - Link: http://www.pythonchallenge.com/pc/rock/beer.html
 - Username: **kohsamui**

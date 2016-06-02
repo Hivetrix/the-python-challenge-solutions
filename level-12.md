@@ -1,4 +1,4 @@
-# Level 12
+# Python Challenge - Level 12
 
 - Link: http://www.pythonchallenge.com/pc/return/evil.html
 - Username: **huge**

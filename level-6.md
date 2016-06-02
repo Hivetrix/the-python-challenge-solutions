@@ -1,4 +1,4 @@
-# Level 6
+# Python Challenge - Level 6
 
 
 - Link: http://www.pythonchallenge.com/pc/def/channel.html

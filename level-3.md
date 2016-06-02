@@ -1,4 +1,4 @@
-# Level 3
+# Python Challenge - Level 3
 
 - Link: http://www.pythonchallenge.com/pc/def/equality.html
 

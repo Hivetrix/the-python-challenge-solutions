@@ -1,4 +1,4 @@
-# Level 27
+# Python Challenge - Level 27
 
 - Link: http://www.pythonchallenge.com/pc/hex/speedboat.html
 - Username: **butter**

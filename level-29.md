@@ -1,4 +1,4 @@
-# Level 29
+# Python Challenge - Level 29
 
 - Link: http://www.pythonchallenge.com/pc/ring/guido.html
 - Username: **repeat**

@@ -1,4 +1,4 @@
-# Level 28
+# Python Challenge - Level 28
 
 - Link: http://www.pythonchallenge.com/pc/ring/bell.html
 - Username: **repeat**

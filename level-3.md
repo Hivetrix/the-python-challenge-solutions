@@ -1,4 +1,9 @@
-# Python Challenge - Level 3
+---
+description: Python Challenge Level 3 Solution, using python 3, urllib, re.
+---
+
+Python Challenge - Level 3
+==========================
 
 - Link: http://www.pythonchallenge.com/pc/def/equality.html
 

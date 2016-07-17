@@ -1,6 +1,11 @@
 # Python Challenge - Level 31
 
 - Link: http://www.pythonchallenge.com/pc/ring/grandpa.html
+- Username: **repeat**
+- Password: **switch**
+
+Click image
+
 - Username: **kohsamui**
 - Password: **thailand**
 

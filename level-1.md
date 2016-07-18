@@ -112,7 +112,7 @@ That is how we make a loop in Java or C, but python has a better way: list compr
 
 But since it suggest us use ``.maketrans()``, let's try it next.
 
-### Final Code
+### Put Everything Together
 
 ```python
 raw = "g fmnc wms bgblr rpylqjyrc gr zw fylb. rfyrq ufyr amknsrcpq ypc dmp. bmgle grgl zw fylb gq glcddgagclr ylb rfyr'q ufw rfgq rcvr gq qm jmle. sqgle qrpgle.kyicrpylq() gq pcamkkclbcb. lmu ynnjw ml rfc spj."
@@ -133,7 +133,7 @@ In Python 3, ``.maketrans`` is not in ``string`` as indicated; instead call ``st
 "i hope you didnt translate it by hand. thats what computers are for. doing itin by hand is inefficient and that's why this text is so long. using string.maketrans() is recommended. now apply on the url."
 ```
 
-### Final Code
+### Put Everything Together
 
 ```python
 raw = "g fmnc wms bgblr rpylqjyrc gr zw fylb. rfyrq ufyr amknsrcpq ypc dmp. bmgle grgl zw fylb gq glcddgagclr ylb rfyr'q ufw rfgq rcvr gq qm jmle. sqgle qrpgle.kyicrpylq() gq pcamkkclbcb. lmu ynnjw ml rfc spj."
@@ -189,7 +189,7 @@ translate the whole string:
 "i hope you didnt translate it by hand. thats what computers are for. doing itin by hand is inefficient and that's why this text is so long. using string.maketrans() is recommended. now apply on the url."
 ```
 
-### Final Code
+### Put Everything Together
 
 ```python
 raw = "g fmnc wms bgblr rpylqjyrc gr zw fylb. rfyrq ufyr amknsrcpq ypc dmp. bmgle grgl zw fylb gq glcddgagclr ylb rfyr'q ufw rfgq rcvr gq qm jmle. sqgle qrpgle.kyicrpylq() gq pcamkkclbcb. lmu ynnjw ml rfc spj."

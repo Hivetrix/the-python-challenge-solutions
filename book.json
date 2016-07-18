@@ -1,11 +1,14 @@
 {
-  "plugins": ["sitemap", "ga"],
+  "plugins": ["sitemap", "ga", "disqus"],
   "pluginsConfig": {
     "ga": {
       "token": "UA-77760660-2"
     },
     "sitemap": {
       "hostname": "http://the-python-challenge-solutions.hackingnote.com/"
+    },
+    "disqus": {
+      "shortName": "the-python-challenge-solutions"
     }
   }
 }

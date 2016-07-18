@@ -90,8 +90,17 @@ If you are having a hard time to guess the meaning:
 'equality'
 ```
 
-result:
+### Put Everything Together
 
+```python
+import urllib.request
+import re
+html = urllib.request.urlopen("http://www.pythonchallenge.com/pc/def/ocr.html").read().decode()
+data = re.findall("<!--(.*?)-->", html, re.DOTALL)[-1]
+print("".join(re.findall("[A-Za-z]", data)))
+```
+
+result:
 
 > equality
 

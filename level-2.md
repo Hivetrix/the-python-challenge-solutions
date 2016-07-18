@@ -6,7 +6,7 @@
 ## Problem
 
 
- ![](images/ocr.jpg)
+![](images/ocr.jpg)
  
 > recognize the characters. maybe they are in the book, 
 > but MAYBE they are in the page source.
@@ -31,32 +31,63 @@ find rare characters in the mess below:
 
 ## Solution
 
-Save the characters in between ``<!--`` and ``-->`` to ``data.txt``
+### Load Data
+
+
+You can manually copy-and-paste the text to a file(``resources/level2.txt`` in source code), then read from it:
 
 ```python
-f = open('data.txt', 'r')
-count = {}
-for line in f:
-    for c in line:
-        count[c] = count.get(c, 0) + 1   
-print(count)
+>>> data = open('resources/level2.txt').read()
 ```
 
-output:
+Or extract the text from HTML directly. First load raw html source coding using ``urllib.request``:
 
+```python
+>>> import urllib.request
+>>> html = urllib.request.urlopen("http://www.pythonchallenge.com/pc/def/ocr.html").read().decode()
+```
 
-> {'^': 6030, '&': 6043, '@': 6157, '%': 6104, 't': 1, 'i': 1, '}': 6105, '{': 6046, '$': 6046, 'u': 1, '_': 6112, 'e': 1, 'l': 1, 'y': 1, ']': 6152, 'q': 1, 'a': 1, '#': 6115, '!': 6079, ')': 6186, '\n': 1220, '*': 6034, '[': 6108, '+': 6066, '(': 6154}
+Then extract the comment blocks in html. Note that by default dot does not match ``\n``, so we need to use ``re
+.DOTALL`` flag. 
 
+```python
+>>> import re
+>>> comments = re.findall("<!--(.*?)-->", html, re.DOTALL)
+```
+
+Alternatively we can use this:
+
+```python
+>>> comments = re.findall("<!--([\w\n]*?)-->", html)
+```
+
+The pattern ``<!--(.*)-->`` will capture all blocks inside ``<!--`` and ``-->``. We only care about the last part, so
+
+```python
+>>> data = comments[-1]
+```
+
+### Find the Rare Characters
+
+```python
+>>> count = {}
+>>> for c in data:
+...     count[c] = count.get(c, 0) + 1
+... 
+>>> count
+{'*': 6034, '$': 6046, 'i': 1, '!': 6079, '[': 6108, 'u': 1, 'e': 1, '@': 6157, '#': 6115, 't': 1, '(': 6154, '+': 6066, '&': 6043, 'q': 1, 'l': 1, '%': 6104, '{': 6046, '}': 6105, 'a': 1, '^': 6030, ']': 6152, '\n': 1221, 'y': 1, '_': 6112, ')': 6186}
+```
 
 The ``rare`` characters only have 1 occurrence: t, i, u, e, l, y, q, a.
+
+### In the right order
 
 If you are having a hard time to guess the meaning:
 
 ```python
-import re
-f = open('data.txt', 'r')
-data = "".join(f.readlines())
-print("".join(re.findall("[A-Za-z]", data)))
+>>> import re
+>>> "".join(re.findall("[A-Za-z]", data))
+'equality'
 ```
 
 result:

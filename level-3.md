@@ -29,40 +29,21 @@ Hmm, shall we find all segments of the pattern ```AAAbCCC```?
 
 ### Step 1: Load Data
 
-You can manually copy-and-paste the text to a file(``resources/level3.txt`` in source code), then read from it:
+Similar to level 2, You can manually copy-and-paste the text to a file(``resources/level3.txt`` in source code), then 
+read from it:
 
 ```python
 >>> data = open('resources/level3.txt').read()
 ```
 
-Or extract the text from HTML directly. First load raw html source coding using ``urllib.request``:
+Or extract the text from HTML directly. 
 
 ```python
 >>> import urllib.request
->>> html = urllib.request.urlopen("http://www.pythonchallenge.com/pc/def/equality.html").read().decode()
-```
-
-Then extract the comment blocks in html. Note that by default dot does not match ``\n``, so we need to use ``re
-.DOTALL`` flag. 
-
-```python
 >>> import re
->>> comments = re.findall("<!--(.*)-->", html, re.DOTALL)
+>>> html = urllib.request.urlopen("http://www.pythonchallenge.com/pc/def/equality.html").read().decode()
+>>> data = re.findall("<!--(.*?)-->", html, re.DOTALL)[-1]
 ```
-
-Alternatively we can use this:
-
-```python
->>> comments = re.findall("<!--([\w\n]*)-->", html)
-```
-
-The pattern ``<!--(.*)-->`` will capture all blocks inside ``<!--`` and ``-->``. We only care about the last part, so
-
-```python
->>> data = comments[-1]
-```
-
-This level only has one comment block, so it is not really necessary, but later it would be helpful.
 
 ### Step 2: Find the Matches
 

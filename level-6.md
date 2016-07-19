@@ -10,9 +10,20 @@
 
 ![](images/channel.jpg)
 
-Download: http://www.pythonchallenge.com/pc/def/channel.zip
+Pants? And Spiderman's underwear?
 
-In readme.txt:
+There's no text or any useful info in the source comments except for a call out of the donation button, but the big 
+hint is at the very first line of html(and I missed it...):
+
+```html
+<html> <!-- <-- zip -->
+```
+
+Ok... the image was about "zip", not "pants" or anything under it...
+
+Replace ``html`` with ``zip``: http://www.pythonchallenge.com/pc/def/channel.zip
+
+Unzip it. In readme.txt:
 
 ```
 welcome to my zipped list.

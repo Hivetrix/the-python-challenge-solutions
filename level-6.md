@@ -35,61 +35,50 @@ hint2: answer is inside the zip
 ## Solution
 
 ```python
-import zipfile, re
-
-f = zipfile.ZipFile("channel.zip")
-print(f.read("readme.txt").decode("utf-8"))
-
-num = '90052'
-
-while True:
-    content = f.read(num + ".txt").decode("utf-8")
-    print(content)        
-    match = re.search("Next nothing is (\d+)", content)        
-    if match == None:
-        break
-    else:
-        num = match.group(1)
-```
-
-Result:
-
-```
+>>> import zipfile, re
+>>> 
+>>> f = zipfile.ZipFile("resources/channel.zip")
+>>> num = '90052'
+>>> while True:
+...     content = f.read(num + ".txt").decode("utf-8")
+...     print(content)        
+...     match = re.search("Next nothing is (\d+)", content)        
+...     if match == None:
+...         break
+...     num = match.group(1)
+... 
 Next nothing is 94191
 Next nothing is 85503
+Next nothing is 70877
 ...
+Next nothing is 68628
+Next nothing is 67824
 Next nothing is 46145
 Collect the comments.
 ```
 
+Comments.. what comments? 
+
+It turns out that zip file may contain some comments, and they can be accessed by:
+
+- [ZipFile.comment](https://docs.python.org/3/library/zipfile.html#zipfile.ZipFile.comment): comment associated with the ZIP file.
+- [ZipInfo.comment](https://docs.python.org/3/library/zipfile.html#zipfile.ZipInfo.comment): comment for the individual archive member.
+
 Add a few lines to collect the comments:
 
 ```python
-import zipfile, re
-
-f = zipfile.ZipFile("channel.zip")
-print(f.read("readme.txt").decode("utf-8"))
-
-num = '90052'
-
-comments = []
-
-while True:
-    content = f.read(num + ".txt").decode("utf-8")
-    comments.append(f.getinfo(num + ".txt").comment.decode("utf-8"))
-    print(content)        
-    match = re.search("Next nothing is (\d+)", content)        
-    if match == None:
-        break
-    else:
-        num = match.group(1)
-
-print("".join(comments))
-```
-
-Result:
-
-```
+>>> num = '90052'
+>>> comments = []
+>>> while True:
+...     content = f.read(num + ".txt").decode("utf-8")
+...     comments.append(f.getinfo(num + ".txt").comment.decode("utf-8"))
+...     content      
+...     match = re.search("Next nothing is (\d+)", content)        
+...     if match == None:
+...         break
+...     num = match.group(1)
+... 
+>>> print("".join(comments))
 ****************************************************************
 ****************************************************************
 **                                                            **
@@ -104,9 +93,8 @@ Result:
 **                                                            **
 ****************************************************************
  **************************************************************
-```
 
-## Next Level
+```
 
 If you try http://www.pythonchallenge.com/pc/def/hockey.html, you will get 
 
@@ -114,6 +102,34 @@ If you try http://www.pythonchallenge.com/pc/def/hockey.html, you will get
 it's in the air. look at the letters.
 ```
 
-The right answer is in the letters: oxygen
+The right answer is in the letters: **oxygen**
+
+
+### Put Everything Together
+
+```python
+import zipfile, re
+
+f = zipfile.ZipFile("channel.zip")
+print(f.read("readme.txt").decode("utf-8"))
+
+num = '90052'
+
+comments = []
+
+while True:
+    content = f.read(num + ".txt").decode("utf-8")
+    comments.append(f.getinfo(num + ".txt").comment.decode("utf-8"))
+    print(content)    
+    match = re.search("Next nothing is (\d+)", content)    
+    if match == None:
+        break
+    num = match.group(1)
+
+print("".join(comments))
+```
+
+## Next Level
+
 
 http://www.pythonchallenge.com/pc/def/oxygen.html

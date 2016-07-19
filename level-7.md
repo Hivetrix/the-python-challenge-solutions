@@ -8,31 +8,109 @@
 
 Nothing else... the gray scale should contain the information.
 
-## Solution
+We need an image processing library. 
 
-Pick an image processing library. 
+## Solution 1: PIL(Pillow)
 
-### Solution 1: PIL(Pillow)
-
-The original PIL was not ported to Python 3. Use the fork called ``Pillow`` instead: 
+<div class="bs-callout bs-callout-danger">
+    <h4>Python 2 to 3</h4>
+    <p>The original PIL was not ported to Python 3. Use the fork called ``Pillow`` instead</p>
+</div>
 
 Install Pillow
+
 ```
-$ pip install pillow
+$ pip3 install pillow
 ```
+
+Make sure you can load the module:
 
 ```python
-import re
-from PIL import Image
-
-i = Image.open("oxygen.png")
-row = [i.getpixel((x, 45)) for x in range(0, i.size[0], 7)]
-ords = [r for r, g, b, a in row if r == g == b]
-
-print("".join(map(chr, map(int, re.findall("\d+", "".join(map(chr, ords)))))))
+>>> from PIL import Image
 ```
 
-### Solution 2: PyPNG
+To load an image, one way is to download the image to local manually, then load it by:
+
+```python
+>>> img = Image.open("oxygen.png")
+```
+
+Or load it from url directly:
+
+```python
+>>> import requests
+>>> from io import BytesIO
+>>> from PIL import Image
+>>> img = Image.open(BytesIO(requests.get('http://www.pythonchallenge.com/pc/def/oxygen.png').content))
+```
+
+We can get some basic info about the image:
+
+```python
+>>> im.width
+629
+>>> im.height
+95
+```
+
+And get the pixel by providing indices:
+
+```python
+>>> img.getpixel((0,0))
+(79, 92, 23, 255)
+```
+
+The result is the tuple of (R, G, B, alpha).
+
+To get the grey scale, we can take the middle row of the pixels:
+
+```python
+>>> row = [img.getpixel((x, img.height / 2)) for x in range(img.width)]
+>>> row
+[(115, 115, 115, 255), (115, 115, 115, 255), (115, 115, 115, 255), ...
+```
+
+As you can tell, row has lots of duplicates, since each grey block's width is larger than 1 pixel. If you do some 
+manual counting, you know it is exactly 7 pixels wide, this should be the easiest way to de-dup:
+
+```python
+>>> row = row[::7]
+>>> row
+[(115, 115, 115, 255), (109, 109, 109, 255), (97, 97, 97, 255), ...
+```
+
+
+
+Notice that at the end of the array there are some noises: pixels that are not grey scale, which have the same value 
+for R, G, and B. We can remove those pixels
+
+```python
+>>> ords = [r for r, g, b, a in row if r == g == b]
+```
+
+and since RGB is using a positive number in [0, 255] for each color, we can assume it represents a ASCII character:
+
+```python
+>>> "".join(map(chr, ords))
+'smart guy, you made it. the next level is [105, 110, 116, 101, 103, 114, 105, 116, 121]'
+```
+
+We were right, but it is not over... Do it again on the numbers:
+
+```python
+>>> nums = re.findall("\d+", "".join(map(chr, ords)))
+>>> nums
+['105', '110', '116', '101', '103', '114', '105', '116', '121']
+```
+
+Finally:
+
+```python
+>>> "".join(map(chr, map(int, nums)))
+'integrity'
+```
+
+## Solution 2: PyPNG
 
 Alternatively use a package called ``PyPNG``:
 

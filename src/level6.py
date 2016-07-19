@@ -14,7 +14,6 @@ while True:
     match = re.search("Next nothing is (\d+)", content)    
     if match == None:
         break
-    else:
-        num = match.group(1)
+    num = match.group(1)
 
 print("".join(comments))

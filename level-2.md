@@ -40,6 +40,11 @@ You can manually copy-and-paste the text to a file(``resources/level2.txt`` in s
 >>> data = open('resources/level2.txt').read()
 ```
 
+<div class="bs-callout bs-callout-info">
+    <h4>Read More</h4>
+    <p>More about <a href="http://www.hackingnote.com/en/python/io">Python 3 - IO</a></p>
+</div>
+
 Or extract the text from HTML directly. First load raw html source coding using ``urllib.request``:
 
 ```python
@@ -109,6 +114,4 @@ result:
 
 http://www.pythonchallenge.com/pc/def/equality.html
 
-## Read More
 
-- [Python 3 - IO](http://www.hackingnote.com/en/python/io)

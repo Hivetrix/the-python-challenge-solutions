@@ -126,5 +126,5 @@ http://www.pythonchallenge.com/pc/def/peak.html
  
 ## Python 2 to Python 3
 
-Python 2's ``urllib`` and ``urllib2`` are combined as 
+Python 2's ``urllib`` and ``urllib2`` are combined as the new ``urllib``
 

@@ -110,7 +110,7 @@ that is why we do not need to ``+1`` when calculating the length as in Solution 
 5808
 ```
 
-### Solution 4
+## Solution 4
 
 This is not recommend, but it is a cool one-liner solution. Do not sacrifice clarity for coolness in the real world 
 projects!

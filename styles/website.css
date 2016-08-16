@@ -95,3 +95,7 @@
 .bs-callout a.alert-link {
     font-weight: bold;
 }
+
+.markdown-section li > p {
+    margin-bottom: 0;
+}

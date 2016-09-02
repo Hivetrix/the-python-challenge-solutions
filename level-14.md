@@ -1,20 +1,65 @@
 # Python Challenge - Level 14
 
-- Link: http://www.pythonchallenge.com/pc/return/italy.html
-- Username: **huge**
-- Password: **file**
 
-## Problem
+
+
 
 ![](images/italy.jpg)
 
-![](images/wire.png)
+Problem Link
+------------
 
-```
+- http://www.pythonchallenge.com/pc/return/italy.html
+- Username: **huge**
+- Password: **file**
+
+
+
+
+
+
+## Clues
+
+### Clue 1
+
+In HTML source code:
+
+```html
 <!-- remember: 100*100 = (100+99+99+98) + (...  -->
 
 <img src="wire.png" width="100" height="100">
 ```
+
+This is the image:
+
+<img src="/images/wire.png" width="100" height="100">
+
+### Clue 2
+
+Title of the HTML: 
+
+> walk around
+
+### Clue 3
+
+The image of the problem: we are looking at(for) something spiral!
+
+## Exploration
+
+Do not be fooled by that barcode-like image, it appears to be a square, that is because in HTML both the width and height are set as 100.
+
+```python
+>>> from PIL import Image
+>>> im = Image.open('../images/wire.png')
+>>> im.size
+(10000, 1)
+```
+
+The real size is not ``100*100``! It is ``10000*1``! 
+
+Based on all the clues, our assumption is to use the 10000 points from the given image, create another image of 100*100, by walking around the square from 
+outside to inside, so we go right for 100 pixels, then down 99 pixels, then left 99 pixels, then up 98 pixels(clue 1).
+
 
 
 ## Solution
@@ -34,8 +79,12 @@ while d/2>0:
             out.putpixel((x, y),im.getpixel((p,0)))
             p += 1
         d -= 1
-out.save('14.jpg')
+out.save('level_14_result.jpg')
 ```
+
+![](/images/level_14_result.jpg)
+
+It's a cat!
 
 ## Next Level
 http://www.pythonchallenge.com/pc/return/cat.html

@@ -12,4 +12,4 @@ while d/2>0:
             out.putpixel((x,y),im.getpixel((p,0)))
             p+=1
         d-=1
-out.save('14.jpg')
+out.save('../images/level_14_result.jpg')

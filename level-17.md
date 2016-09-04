@@ -1,12 +1,23 @@
 # Python Challenge - Level 17
 
+![](images/cookies.jpg)
+
+
+## Problem Link
+
 - Link: http://www.pythonchallenge.com/pc/return/romance.html
 - Username: **huge**
 - Password: **file**
 
-## Problem
+## Clues
 
-![](images/cookies.jpg)
+### Clue 1
+
+Image: it is named **cookies**
+
+### Clue 2
+
+There's an embedded image. Looks familiar? It's from Level 4.
 
 ## Solution
 

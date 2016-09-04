@@ -10,4 +10,4 @@ for y in range(image.size[1]):
     row = ImageChops.offset(row, -i)
     image.paste(row, box)
 
-image.save("new.gif")
+image.save("../images/level16-result.gif")

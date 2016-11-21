@@ -226,3 +226,8 @@ In Python 3, ``maketrans()`` is part of either ``bytes`` or ``str``:
 
 - ``str.maketrans(from, to)``
 - ``bytes.maketrans(from, to)``
+
+
+<div class="ad">
+<script src='//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&amp;adInstanceId=0f3c2d71-0c18-4aca-be44-ba6e8892af33&amp;storeId=xstore0b-20'></script> 
+</div>  

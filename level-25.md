@@ -41,3 +41,7 @@ result.save('level25.png')
 ## Next Level
 
 www.pythonchallenge.com/pc/hex/decent.html
+
+<div class="ad">
+<script src='//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&amp;adInstanceId=0f3c2d71-0c18-4aca-be44-ba6e8892af33&amp;storeId=xstore0b-20'></script> 
+</div>  

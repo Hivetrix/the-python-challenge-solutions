@@ -99,3 +99,8 @@ http://www.pythonchallenge.com/pc/def/linkedlist.php
 ## Further Readings
 
 - [Python 3 - RegEx](http://www.hackingnote.com/en/python/re/)
+
+
+<div class="ad">
+<script src='//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&amp;adInstanceId=0f3c2d71-0c18-4aca-be44-ba6e8892af33&amp;storeId=xstore0b-20'></script> 
+</div>  

@@ -1,2 +1,4 @@
 .gitignore
+.bookignore
 src
+update.sh

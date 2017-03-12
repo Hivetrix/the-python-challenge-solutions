@@ -26,11 +26,6 @@ This eBook provides "just enough" knowledge for solving each challenge. To learn
     - Hacking: <a  href="https://www.amazon.com/gp/product/1593275900/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1593275900&linkCode=as2&tag=xstore0b-20&linkId=b33977e81f8328b0804429f2988cc0ab">Black Hat Python</a><!--<img src="//ir-na.amazon-adsystem.com/e/ir?t=xstore0b-20&l=am2&o=1&a=1593275900" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />-->
     - Web Scraping: <a  href="https://www.amazon.com/gp/product/1491910291/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1491910291&linkCode=as2&tag=xstore0b-20&linkId=7bcc8c0654b66fedd9219cd13c217413">Web Scraping with Python</a><!--<img src="//ir-na.amazon-adsystem.com/e/ir?t=xstore0b-20&l=am2&o=1&a=1491910291" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />-->
 
-- [HackingNote](https://www.hackingnote.com/en/python/overview/): last but not least, a shameless plug-in. I'm still learning Python, and I'm taking notes and shaping my knowledge base along the way. Hope it could help you as well.
+- [HackingNote](https://www.hackingnote.com/en/python/overview/): learning python and taking notes alone the way. Hope it could help you as well.
 
 
-One More Word...
-----------------
-
-I'm not a Python expert. I'm not an editor, not even a native English speaker. Please bear with me if I make any grammar or technical mistakes. Feel free to 
-leave comments at the bottom of each page(if you are reading from the website). 

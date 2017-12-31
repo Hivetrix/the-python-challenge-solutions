@@ -1,6 +1,5 @@
 import time
 
-
 class Seg:
     def __init__(self, length):
         self.length = length
@@ -8,7 +7,6 @@ class Seg:
 
     def __repr__(self):
         return '<Seg:len=' + str(self.length) + ',placements=' + str(self.placements) + '>'
-
 
 class Bar:
     def __init__(self, axis, index, segs, length):
@@ -31,9 +29,8 @@ class Bar:
     def __lt__(self, other):
         return self.index - other.index
 
-
-def load():
-    with open("up.txt") as f:
+def load(filename):
+    with open(filename) as f:
         lines = f.readlines()
         lines = [line.strip() for line in lines if (not line.startswith('#')) and len(line.strip()) != 0]
         raw = [list(map(int, line.split())) for line in lines]
@@ -146,50 +143,50 @@ def check_bar(board, bar, start=0, iseg=0, tmp_placements=[], flags=[]):
             check_bar(board, bar, start=placement + seg.length + 1, iseg=iseg + 1, tmp_placements=tmp_placements,
                       flags=flags)
 
+if __name__ == '__main__':
+    (hlens, vlens) = load("up.txt")
 
-(hlens, vlens) = load()
+    h = len(hlens)
+    v = len(vlens)
 
-h = len(hlens)
-v = len(vlens)
+    bars = []
 
-bars = []
+    for ind in range(len(hlens)):
+        segs = [Seg(i) for i in hlens[ind]]
+        bars.append(Bar(0, ind, segs, h))
 
-for ind in range(len(hlens)):
-    segs = [Seg(i) for i in hlens[ind]]
-    bars.append(Bar(0, ind, segs, h))
+    for ind in range(len(hlens)):
+        segs = [Seg(i) for i in vlens[ind]]
+        bars.append(Bar(1, ind, segs, h))
 
-for ind in range(len(hlens)):
-    segs = [Seg(i) for i in vlens[ind]]
-    bars.append(Bar(1, ind, segs, h))
+    board = [[[None] * v for i in range(h)], [[None] * v for i in range(h)]]
 
-board = [[[None] * v for i in range(h)], [[None] * v for i in range(h)]]
+    calc_placement(bars)
 
-calc_placement(bars)
+    mark_overlaps(board, bars)
 
-mark_overlaps(board, bars)
+    while True:
 
-while True:
+        dirty_bars = [(sum([len(seg.placements) for seg in bar.segs]), bar) for bar in bars if bar.dirty]
+        if len(dirty_bars) == 0:
+            break
+        effort, bar = min(dirty_bars)
 
-    dirty_bars = [(sum([len(seg.placements) for seg in bar.segs]), bar) for bar in bars if bar.dirty]
-    if len(dirty_bars) == 0:
-        break
-    effort, bar = min(dirty_bars)
+        flags = [0] * len(board[bar.axis][0])
 
-    flags = [0] * len(board[bar.axis][0])
+        print("Processing Bar: (" + str(bar.axis) + "," + str(bar.index) + ")")
+        check_bar(board, bar, tmp_placements=[0] * len(bar.segs), flags=flags)
 
-    print("Processing Bar: (" + str(bar.axis) + "," + str(bar.index) + ")")
-    check_bar(board, bar, tmp_placements=[0] * len(bar.segs), flags=flags)
+        for i in range(len(flags)):
+            flag = flags[i]
+            if flag == 1:
+                if update_board(board, bar, i, 1):
+                    bars[(1 - bar.axis) * h + i].dirty = True
+            elif flag == 2:
+                if update_board(board, bar, i, 0):
+                    bars[(1 - bar.axis) * h + i].dirty = True
+        bar.dirty = False
 
-    for i in range(len(flags)):
-        flag = flags[i]
-        if flag == 1:
-            if update_board(board, bar, i, 1):
-                bars[(1 - bar.axis) * h + i].dirty = True
-        elif flag == 2:
-            if update_board(board, bar, i, 0):
-                bars[(1 - bar.axis) * h + i].dirty = True
-    bar.dirty = False
+    print_board(board[0])
 
-print_board(board[0])
-
-print(time.process_time())
+    print(time.process_time())

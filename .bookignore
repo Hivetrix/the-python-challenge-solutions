@@ -2,3 +2,4 @@
 .bookignore
 src
 update.sh
+node_modules

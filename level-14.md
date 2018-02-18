@@ -1,9 +1,5 @@
 # Python Challenge - Level 14
 
-
-
-
-
 ![](src/level_14/italy.jpg)
 
 Problem Link
@@ -12,11 +8,6 @@ Problem Link
 - http://www.pythonchallenge.com/pc/return/italy.html
 - Username: **huge**
 - Password: **file**
-
-
-
-
-
 
 ## Clues
 

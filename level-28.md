@@ -6,7 +6,7 @@
 
 ## Problem
 
-![](images/bell.png)
+![](src/level_28/bell.png)
 
 > RING-RING-RING 
   say it out loud

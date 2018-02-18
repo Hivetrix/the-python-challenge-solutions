@@ -4,7 +4,7 @@
 
 ## Problem
 
-![](images/integrity.jpg)
+![](src/level_08/integrity.jpg)
 
 > Where is the missing link?
 

@@ -6,7 +6,7 @@
 
 ## Problem
 
-![](images/maze.png)
+![](src/level_24/maze.png)
 
 ## Solution
 

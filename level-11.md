@@ -6,7 +6,7 @@
 
 ## Problem
 
-![](images/cave.jpg)
+![](src/level_11/cave.jpg)
 
 title: ``odd even``
 

@@ -6,7 +6,7 @@
 
 ## Problem
 
-![](images/whoisit.jpg)
+![](src/level_29/whoisit.jpg)
 
 
 ## Solution

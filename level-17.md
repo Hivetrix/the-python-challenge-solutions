@@ -1,6 +1,6 @@
 # Python Challenge - Level 17
 
-![](images/cookies.jpg)
+![](src/level_17/cookies.jpg)
 
 
 ## Problem Link

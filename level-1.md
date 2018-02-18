@@ -5,7 +5,7 @@
 Problem
 -------
 
-![](images/level1.jpg)
+![](src/level_01/map.jpg)
 
 The image lists 3 pairs:
 

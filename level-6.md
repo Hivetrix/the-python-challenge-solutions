@@ -8,7 +8,7 @@
 
 
 
-![](images/channel.jpg)
+![](src/level_06/channel.jpg)
 
 Pants? And Spiderman's underwear?
 

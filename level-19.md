@@ -6,7 +6,7 @@
 
 ## Problem
 
-![](images/map.jpg)
+![](src/level_19/map.jpg)
 
 ## Solution
 

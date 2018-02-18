@@ -10,7 +10,7 @@ Python Challenge - Level 3
 
 ## Problem
 
-![](images/bodyguard.jpg)
+![](src/level_03/bodyguard.jpg)
 
 > One small letter, surrounded by EXACTLY three big bodyguards on each of its sides.
 

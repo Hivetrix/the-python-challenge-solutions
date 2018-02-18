@@ -6,7 +6,7 @@
 
 ## Problem
 
-![](images/yankeedoodle.jpg)
+![](src/level_30/yankeedoodle.jpg)
 
 > The picture is only meant to help you relax
 

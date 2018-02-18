@@ -5,7 +5,7 @@
 ## Problem
 
 
-![](images/chainsaw.jpg)
+![](src/level_04/chainsaw.jpg)
 
 Click on the image, you would see
 

@@ -4,7 +4,7 @@
 
 
 
-![](images/italy.jpg)
+![](src/level_14/italy.jpg)
 
 Problem Link
 ------------
@@ -32,11 +32,11 @@ In HTML source code:
 
 This is the image:
 
-<img src="/images/wire.png" width="100" height="100">
+<img src="src/level_14/wire.png" width="100" height="100">
 
 ### Clue 2
 
-Title of the HTML: 
+Title of the HTML:
 
 > walk around
 
@@ -82,7 +82,7 @@ while d/2>0:
 out.save('level_14_result.jpg')
 ```
 
-![](/images/level_14_result.jpg)
+![](src/level_14/result.jpg)
 
 It's a cat!
 

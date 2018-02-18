@@ -6,20 +6,20 @@
 
 ## Problem
 
-![](images/evil1.jpg)
+![](src/level_12/evil1.jpg)
 
 
 Checking the source, the image is named as ``evil1.jpg``. Try ``evil2`` and you will see:
 
 http://www.pythonchallenge.com/pc/return/evil2.jpg
 
-![](images/evil2.jpg)
+![](src/level_12/evil2.jpg)
 
 Change suffix to ``.gfx`` to download the file
 
 Is it over? Try evil3.jpg, we got:
 
-![](images/evil3.jpg)
+![](src/level_12/evil3.jpg)
 
 Really? "no more evils"? Let's try evil4.jpg. Depend on your browser, you may see nothing or an error message
 
@@ -63,15 +63,15 @@ Let's try to split the data into 5, but "dealing" the bytes instead of cards...
 Open the generated ``0.jpg`` through ``4.jpg``, you should see ``dis``, ``pro``, ``port``, ``tional``
 
 
-![](images/level12-0.jpg)
+![](src/level_12/level12-0.jpg)
 
-![](images/level12-1.jpg)
+![](src/level_12/level12-1.jpg)
 
-![](images/level12-2.jpg)
+![](src/level_12/level12-2.jpg)
 
-![](images/level12-3.jpg)
+![](src/level_12/level12-3.jpg)
 
-![](images/level12-4.jpg)
+![](src/level_12/level12-4.jpg)
 
 
 ### Put Everything Together

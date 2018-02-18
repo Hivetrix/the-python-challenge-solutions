@@ -1,6 +1,11 @@
-Links
+Appendix
 =====
 
+Source Code
+-----------
+
+- [eBook Source Code](https://github.com/hackingnote/the-python-challenge-solutions)
+- [Solutions Source Code](https://github.com/hackingnote/the-python-challenge-solutions/tree/master/src)
 
 Documentation
 -------------------

@@ -7,7 +7,7 @@
 ## Problem
 
 
-![](images/good.jpg)
+![](src/level_09/good.jpg)
 
 
 In page source: 
@@ -93,7 +93,7 @@ Use PIL(pillow)
 >>> im.show()
 ```
 
-![](images/level9_result.jpg)
+![](src/level_09/result.jpg)
 
 Is it a ... cow? We get this from ``cow.html``
 

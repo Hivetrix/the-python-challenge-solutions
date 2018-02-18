@@ -6,9 +6,7 @@
 
 ## Problem
 
-![](images/level32.png)
-
-
+![](src/level_32/level32.png)
 
 ## Solution
 

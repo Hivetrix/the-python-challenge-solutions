@@ -6,7 +6,7 @@
 
 ## Problem
 
-![](images/bull.jpg)
+![](src/level_10/bull.jpg)
 
 > len(a[30]) = ?
 

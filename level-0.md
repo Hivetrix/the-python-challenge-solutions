@@ -6,7 +6,7 @@
 
 
 
-![](images/calc.jpg)
+![](src/level_00/calc.jpg)
 
 > Hint: try to change the URL address.
 

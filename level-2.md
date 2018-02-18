@@ -6,7 +6,7 @@
 ## Problem
 
 
-![](images/ocr.jpg)
+![](src/level_02/ocr.jpg)
  
 > recognize the characters. maybe they are in the book, 
 > but MAYBE they are in the page source.

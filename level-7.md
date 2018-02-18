@@ -4,17 +4,17 @@
 
 ## Problem
 
-![](images/oxygen.png)
+![](src/level_07/oxygen.png)
 
 Nothing else... the gray scale should contain the information.
 
-We need an image processing library. 
+We need an image processing library.
 
 ## Solution 1: PIL(Pillow)
 
 <div class="bs-callout bs-callout-danger">
     <h4>Python 2 to 3</h4>
-    <p>The original PIL was not ported to Python 3. Use the fork called ``Pillow`` instead</p>
+    <p>The original PIL was not ported to Python 3. Use the fork called Pillow instead</p>
 </div>
 
 Install Pillow

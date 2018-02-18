@@ -7,7 +7,7 @@
 
 ## Problem
 
-![](images/beer1.jpg)
+![](src/level_33/beer1.jpg)
 
 ## Solution
 

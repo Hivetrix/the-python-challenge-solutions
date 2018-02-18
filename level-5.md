@@ -5,7 +5,7 @@
 ## Problem
 
 
-![](images/peakhell.jpg)
+![](src/level_05/peakhell.jpg)
 
 > pronounce it 
 

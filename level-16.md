@@ -1,6 +1,6 @@
 # Python Challenge - Level 16
 
-![](/images/mozart.gif)
+![](src/level_16/mozart.gif)
 
 ## Problem Link
 
@@ -51,7 +51,7 @@ So value 60 appears 29448 times, let's see if it is pink. We can make a copy of 
 >>> tmp.show()
 ```
 
-![](/images/level16-tmp1.gif)
+![](src/level_16/tmp1.gif)
 
 Hmm, not so pinky.
 
@@ -76,7 +76,7 @@ Let's try pixel value of 195 instead of 60
 >>> tmp.show()
 ```
 
-![](/images/level16-tmp2.gif)
+![](src/level_16/tmp2.gif)
 
 Now it looks right. 
 
@@ -104,7 +104,7 @@ Once we have the shifted data as ``bytes``, we can use ``Image.frombytes()`` to 
 
 Here's the result:
 
-![](/images/level16-result.gif)
+![](src/level_16/result.gif)
 
 ## Solution
 

@@ -1,5 +1,9 @@
 .gitignore
 .bookignore
-src
+*.zip
+*.gz
+*.pack
+*.wav
+*.wav.*
 update.sh
 node_modules

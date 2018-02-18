@@ -6,7 +6,7 @@
 
 ## Problem
 
-![](images/disprop.jpg)
+![](src/level_13/disprop.jpg)
 
 
 

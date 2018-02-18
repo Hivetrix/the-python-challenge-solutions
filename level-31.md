@@ -11,13 +11,13 @@ Click image
 
 ## Problem
 
-![](images/grandpa.jpg)
+![](src/level_31/grandpa.jpg)
 
 Click on the image:
 
 > That was too easy. You are still on 31... 
 
-![](images/mandelbrot.gif)
+![](src/level_31/mandelbrot.gif)
 
 In page source:
 

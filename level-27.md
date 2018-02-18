@@ -6,7 +6,7 @@
 
 ## Problem
 
-![](images/zigzag.jpg)
+![](src/level_27/zigzag.jpg)
 
 ## Solution
 

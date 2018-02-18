@@ -1,6 +1,6 @@
 # Python Challenge - Level 15
 
-![](images/screen15.jpg)
+![](src/level_15/screen15.jpg)
 
 ## Problem Link
 

@@ -7,7 +7,7 @@
 
 ## Problem
 
-![](images/decent.jpg)
+![](src/level_26/decent.jpg)
 
 > Hurry up, I'm missing the boat
 

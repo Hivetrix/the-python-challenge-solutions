@@ -1,14 +1,11 @@
 {
-  "plugins": ["sitemap", "ga", "disqus", "ad"],
+  "plugins": ["sitemap", "ga", "ad"],
   "pluginsConfig": {
     "ga": {
       "token": "UA-77760660-2"
     },
     "sitemap": {
       "hostname": "https://the-python-challenge-solutions.hackingnote.com/"
-    },
-    "disqus": {
-      "shortName": "the-python-challenge-solutions"
     },
     "ad": {
       "contentBottom": "%3Cscript%20src%3D%27%2F%2Fz-na.amazon-adsystem.com%2Fwidgets%2Fonejs%3FMarketPlace%3DUS%26amp%3BadInstanceId%3D0f3c2d71-0c18-4aca-be44-ba6e8892af33%26amp%3BstoreId%3Dxstore0b-20%27%3E%3C%2Fscript%3E"

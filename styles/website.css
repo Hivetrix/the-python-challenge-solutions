@@ -107,3 +107,7 @@
 .markdown-section li > p {
     margin-bottom: 0;
 }
+
+.ad {
+  border: 3px solid #EEE;
+}

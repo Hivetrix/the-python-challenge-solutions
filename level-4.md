@@ -127,8 +127,3 @@ http://www.pythonchallenge.com/pc/def/peak.html
 ## Python 2 to Python 3
 
 Python 2's ``urllib`` and ``urllib2`` are combined as the new ``urllib``
-
-
-<div class="ad">
-<script src='//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&amp;adInstanceId=0f3c2d71-0c18-4aca-be44-ba6e8892af33&amp;storeId=xstore0b-20'></script> 
-</div>  

@@ -57,13 +57,7 @@ The final answer is **speedboat**
 
 http://www.pythonchallenge.com/pc/hex/speedboat.html
 
-
 ## Python 2 to 3
 
 - ``md5`` module is deprecated, use ``hashlib.md5()``
 - ``open()`` without explicitly specifying ``rb`` will use the default ``utf-8`` codec for decoding.
-
-
-<div class="ad">
-<script src='//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&amp;adInstanceId=0f3c2d71-0c18-4aca-be44-ba6e8892af33&amp;storeId=xstore0b-20'></script> 
-</div>  

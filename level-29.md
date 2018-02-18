@@ -8,7 +8,6 @@
 
 ![](src/level_29/whoisit.jpg)
 
-
 ## Solution
 
 Notice that there "silent" empty lines in the html source code. And the lines are of different lengths. Convert the lengths to bytes and decompress by bz2:
@@ -31,8 +30,3 @@ b"Isn't it clear? I am yankeedoodle!"
 ## Next Level
 
 http://www.pythonchallenge.com/pc/ring/yankeedoodle.html
-
-
-<div class="ad">
-<script src='//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&amp;adInstanceId=0f3c2d71-0c18-4aca-be44-ba6e8892af33&amp;storeId=xstore0b-20'></script> 
-</div>  

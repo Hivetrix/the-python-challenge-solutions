@@ -1,12 +1,12 @@
 # Python Challenge - Level 16
 
-![](src/level_16/mozart.gif)
-
-## Problem Link
-
 - Link: http://www.pythonchallenge.com/pc/return/mozart.html
 - Username: **huge**
 - Password: **file**
+
+## Problem
+
+![](src/level_16/mozart.gif)
 
 
 Clues

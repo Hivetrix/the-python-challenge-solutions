@@ -1,13 +1,12 @@
 # Python Challenge - Level 17
 
-![](src/level_17/cookies.jpg)
-
-
-## Problem Link
-
 - Link: http://www.pythonchallenge.com/pc/return/romance.html
 - Username: **huge**
 - Password: **file**
+
+## Problem
+
+![](src/level_17/cookies.jpg)
 
 ## Clues
 

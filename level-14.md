@@ -1,13 +1,12 @@
 # Python Challenge - Level 14
 
-![](src/level_14/italy.jpg)
-
-Problem Link
-------------
-
-- http://www.pythonchallenge.com/pc/return/italy.html
+- Link: http://www.pythonchallenge.com/pc/return/italy.html
 - Username: **huge**
 - Password: **file**
+
+## Problem
+
+![](src/level_14/italy.jpg)
 
 ## Clues
 

@@ -4,7 +4,6 @@
 - Username: **kohsamui**
 - Password: **thailand**
 
-
 ## Problem
 
 ![](src/level_33/beer1.jpg)

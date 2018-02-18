@@ -8,7 +8,6 @@
 
 ![](src/level_12/evil1.jpg)
 
-
 Checking the source, the image is named as ``evil1.jpg``. Try ``evil2`` and you will see:
 
 http://www.pythonchallenge.com/pc/return/evil2.jpg

@@ -1,13 +1,12 @@
 # Python Challenge - Level 15
 
-![](src/level_15/screen15.jpg)
-
-## Problem Link
-
 - Link: http://www.pythonchallenge.com/pc/return/uzi.html
 - Username: **huge**
 - Password: **file**
 
+## Problem
+
+![](src/level_15/screen15.jpg)
 
 Clues
 -----

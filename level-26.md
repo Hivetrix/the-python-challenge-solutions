@@ -1,7 +1,6 @@
 # Python Challenge - Level 26
 
-
-- Link: www.pythonchallenge.com/pc/hex/decent.html
+- Link: http://www.pythonchallenge.com/pc/hex/decent.html
 - Username: **butter**
 - Password: **fly**
 
